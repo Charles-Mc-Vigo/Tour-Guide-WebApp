@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<TouristSpots>
+    
+    
+    
+    
+    <TouristLocation>
+        <Location>Boac</Location>
+        <TouristSpots_Events>Boac Cathedral (Cathedral Parish of Boac)</TouristSpots_Events>
+        <Description>The Boac Cathedral, also known as the Cathedral Parish of Boac, is a historical and cultural landmark in the municipality. Built during the Spanish colonial period, it features stunning architecture with intricate details. The cathedral holds religious significance and is a popular site for both locals and tourists.</Description>
+        <Image>uploads/Boac Cathedral (Cathedral Parish of Boac)/boac cathedral.jpg</Image>
+    </TouristLocation>
+    <TouristLocation>
+        <Location>Boac</Location>
+        <TouristSpots_Events>Boac Museum (Museo de Boac)</TouristSpots_Events>
+        <Description>The Boac Museum, also known as Museo de Boac, is a must-visit attraction for history enthusiasts. It showcases the rich heritage and cultural artifacts of Marinduque. The museum displays various artifacts, including archaeological finds, religious relics, and artworks, providing visitors with a glimpse into the province's past.</Description>
+        <Image>uploads/Boac Museum (Museo de Boac)/boac museum.jpg</Image>
+    </TouristLocation>
+    <TouristLocation>
+        <Location>Boac</Location>
+        <TouristSpots_Events>Kawa-Kawa Falls</TouristSpots_Events>
+        <Description>Located in the Barangay Mataas na Bayan, Kawa-Kawa Falls is a scenic natural attraction in Boac. It offers a refreshing escape into nature with its cascading waters and lush surroundings. Visitors can swim in the clear pools beneath the falls or simply relax and enjoy the tranquil ambiance. The area is also great for picnics and nature walks.</Description>
+        <Image>uploads/Kawa-Kawa Falls/Kawa-Kawa Falls.jpg</Image>
+    </TouristLocation>
+    <TouristLocation>
+        <Location>Buenavista</Location>
+        <TouristSpots_Events>Poctoy White Beach</TouristSpots_Events>
+        <Description>Poctoy White Beach is a beautiful stretch of white sand beach located in Buenavista. It offers crystal-clear waters and a tranquil atmosphere, making it an ideal spot for swimming, sunbathing, and picnicking. The beach also provides stunning views of nearby islands and is known for its powdery white sand.</Description>
+        <Image>uploads/Poctoy White Beach/Poctoy Beach.jpg</Image>
+    </TouristLocation>
+    <TouristLocation>
+        <Location>Buenavista</Location>
+        <TouristSpots_Events>Bathala Caves</TouristSpots_Events>
+        <Description>Buenavista is home to the renowned Bathala Caves, which are a must-visit attraction for nature enthusiasts and adventurers. The caves feature impressive limestone formations and underground chambers waiting to be explored. Visitors can go spelunking and marvel at the stalactites and stalagmites that adorn the caverns. It's advisable to have a guide when exploring the caves.</Description>
+        <Image>uploads/Bathala Caves/Bathala Caves.jpg</Image>
+    </TouristLocation>
+    <TouristLocation>
+        <Location>Buenavista</Location>
+        <TouristSpots_Events>Mount Malindig</TouristSpots_Events>
+        <Description>Rising to an elevation of approximately 1,157 meters, Mount Malindig is a prominent mountain in Marinduque and offers fantastic hiking opportunities for outdoor enthusiasts. The mountain is considered a sacred place by the locals and is surrounded by lush forests. Hiking to the summit rewards visitors with panoramic views of Marinduque's scenic landscapes and nearby islands.</Description>
+        <Image>uploads/Mount Malindig/Mount Malindig.jpg</Image>
+    </TouristLocation>
+    <TouristLocation>
+        <Location>Gasan</Location>
+        <TouristSpots_Events>Gaspar Island</TouristSpots_Events>
+        <Description> Gaspar Island is a popular tourist destination in Gasan, Marinduque. It offers stunning white sand beaches, crystal-clear waters, and vibrant marine life, making it ideal for snorkeling and diving enthusiasts. The island also features a lighthouse, which provides panoramic views of the surrounding areas.</Description>
+        <Image>uploads/Gaspar Island/Gaspar Island.jpg</Image>
+    </TouristLocation>
+    <TouristLocation>
+        <Location>Gasan</Location>
+        <TouristSpots_Events>Gasan Church (St. Joseph Parish Church)</TouristSpots_Events>
+        <Description>The St. Joseph Parish Church, located in Gasan, is a historic and picturesque church that dates back to the Spanish colonial period. The church's beautiful architecture and serene atmosphere make it a notable attraction for visitors interested in history and religious heritage.</Description>
+        <Image>uploads/Gasan Church (St. Joseph Parish Church)/Gasan Church.jpg</Image>
+    </TouristLocation>
+    <TouristLocation>
+        <Location>Gasan</Location>
+        <TouristSpots_Events>Malbog Sulfur Springs</TouristSpots_Events>
+        <Description>Situated in Gasan, the Malbog Sulfur Springs is a natural wonder known for its therapeutic hot springs. The springs are believed to have healing properties due to the sulfur content in the water. Visitors can enjoy a relaxing dip in the pools and indulge in the rejuvenating effects of the warm sulfuric waters.</Description>
+        <Image>uploads/Malbog Sulfur Springs/Malbog Sulfur Springs.jpg</Image>
+    </TouristLocation>
+    <TouristLocation>
+        <Location>Mogpog</Location>
+        <TouristSpots_Events>Balanacan View Deck</TouristSpots_Events>
+        <Description>Situated in Barangay Balanacan, the Balanacan View Deck provides a panoramic view of the Balanacan Bay and the neighboring islands. It's a great place to appreciate the beauty of the coastal landscape and enjoy the cool breeze. The view deck also offers a glimpse of Balanacan Port, the primary gateway to Marinduque.</Description>
+        <Image>uploads/Balanacan View Deck/Balanacan View Deck.jpg</Image>
+    </TouristLocation>
+    <TouristLocation>
+        <Location>Mogpog</Location>
+        <TouristSpots_Events>Luzon Datum of 1911</TouristSpots_Events>
+        <Description>The Luzon Datum, also known as the Luzon Datum of 1911, is a geodetic datum used as a reference for mapping and surveying in the Philippines. It is based on a triangulation network established in 1911 and is primarily used for land surveys.</Description>
+        <Image>uploads/Luzon Datum of 1911/Luzon Datum of 1911.jpg</Image>
+    </TouristLocation>
+    <TouristLocation>
+        <Location>Santa Cruz</Location>
+        <TouristSpots_Events>Santa Cruz Cathedral</TouristSpots_Events>
+        <Description>The Santa Cruz Cathedral, also known as the Immaculate Conception Cathedral, is a significant religious site in Santa Cruz. Built in 1792, the cathedral showcases beautiful Spanish colonial architecture. Its intricate designs and historical significance make it a noteworthy landmark to visit in the municipality.</Description>
+        <Image>uploads/Santa Cruz Cathedral/santa cruz church.jpg</Image>
+    </TouristLocation>
+<TouristLocation><Location>Mogpog</Location><TouristSpots_Events>Paadjao Falls</TouristSpots_Events><Description>Barangay Bocboc is home to Paadjao Falls. This waterfall, which is around 100 feet long, empties into a 6 foot basin surrounded by thick trees. Its water is frigid all year long and feeds the Mogpog River. From Barangay Bocboc, a 30- minute hike will get you there. The locals can easily provide directions when needed, and it is the province's most easily accessible waterfall. Hire a guide if you're unsure about hiking without one. In Mogpog, Marinduque, this waterfall is regarded as an underrated tourist attraction, yet local families and PAADJAO groups frequently visit there for picnics and nature excursions.</Description><Image>uploads/Paadjao Falls/Paadjao Falls.png</Image></TouristLocation><TouristLocation><Location>Mogpog</Location><TouristSpots_Events>Tarug Cave</TouristSpots_Events><Description>Tarug Caves is located at Barangay Tarug, Mogpog, Marinduque, Philippines. Three chambered caves in limestone formation, it rises steeply to a little more than 900 feet from the ground. Pinnacle is barely 3 square meters. Tarug Rock formation is a popular in tourist spot in mogpog.</Description><Image>uploads/Tarug Cave/tarug cave.JPG</Image></TouristLocation><TouristLocation><Location>Buenavista</Location><TouristSpots_Events>WildLife Sanctuary</TouristSpots_Events><Description>Marinduque Wildlife Sanctuary includes almost 9,000 hectares of Central Marinduque timberland. This woodland area is home to a broad range of flora and wildlife, including imperiled Rufous Hornbill (Rufous hydrocorax), giant cloud pig (Phloeomys pallidus), and indigenous butterfly, reptile, insect and bird species.</Description><Image>uploads/WildLife Sanctuary/wildlife sanch.jpg</Image></TouristLocation><TouristLocation><Location>Buenavista</Location><TouristSpots_Events>Bellarocca Island Resort</TouristSpots_Events><Description>Bellarocca Island Resort and Spa in Marinduque is distinct from the other upscale, luxury resorts of its category anywhere in the country. All 20 hectares of Bellarocca Island Resort and Spa is mountainous terrain, with its highest point at 114 meters above sea-level. Common to both are its rolling terrain and immaculate white buildings perched atop its cliffs: white structures that reflect the sun and contrast with the azure blue sea below. Bellarocca Island Resort and Spa is located on a small mountain island of the southern coast of Marinduque and offers 69 luxurious deluxe suites, casas, terrazas and private villas (with individual Jacuzzis and infinity pools).</Description><Image>uploads/Bellarocca Island Resort/bellarocca island resort.jpg</Image></TouristLocation><TouristLocation><Location>Gasan</Location><TouristSpots_Events>The Mang Iliol Sunflower Farm</TouristSpots_Events><Description>The Mang Iliol Sunflower Farm is one of the newest attractions you must not miss in Gasan. Since I had never actually seen a farm like this before, we stopped as soon as we noticed it by the road and decided to go check it out. It was lovely! In addition to the sunflowers, the farm also has other floral plants and will soon offer fruit picking as one of MANG its activities. They've only started, but I have no doubt that more ILLEOL people will start flocking here in the months to come.</Description><Image>uploads/The Mang Iliol Sunflower Farm/The Mang Iliol Sunflower Farm.jpg</Image></TouristLocation><TouristLocation><Location>Buenavista</Location><TouristSpots_Events>Sea View Park</TouristSpots_Events><Description>Buenavista Seaview Park (Park) is located in Buenavista, Philippines. Buenavista Seaview Park rating is 4.2 star out of 5, based on 29 reviews on their business profile on Google Maps. Buenavista Seaview Park is BUENAVISTA headquartered in Mimaropa. The address of the SEA VIEW Buenavista Seaview Park is Buenavista, Marinduque, PARK Philippines.</Description><Image>uploads/Sea View Park/Buenavista Seaview Park (Park).jpg</Image></TouristLocation><TouristLocation><Location>Mogpog</Location><TouristSpots_Events>Our Lady of Peace and Good Voyage Parish</TouristSpots_Events><Description>Our Lady of Peace and Good Voyage Parish is a church in Marinduque located on Balanacan-Mogpog. Our Lady of Peace and Good Voyage Parish is situated nearby to Salvaria Island and the islet Hidalgo Island.</Description><Image>uploads/Our Lady of Peace and Good Voyage Parish/balanacan port.jpg</Image></TouristLocation><TouristLocation><Location>Torrijos</Location><TouristSpots_Events>Freedom Park</TouristSpots_Events><Description>freedom park is well known for its calm and extraordinary architectural design and mythical sea creature figure constructed along the sea. people mostly use it as a venue for physical fitness activity, family reunion, wedding, fishing, swimming and alike activities.</Description><Image>uploads/Freedom Park/Freedom park.png</Image></TouristLocation><TouristLocation><Location>Torrijos</Location><TouristSpots_Events>Buntal Weavers</TouristSpots_Events><Description>Buntal fiber comes from the buri palm tree and are turned by loomweavers from Torrijos as export quality placemats, table runners, blinds and lamps.  In Torrijos, the frontrunner in this industry is Julie Anne&#x2019;s Handicrafts from Bonliw, owned by Julie Ann and Luisito Reginio. The couple started with just five looms and a few weavers in 2007, but now have 25 loom, 25 regular weavers and 20 more weavers who work at home using their own looms. </Description><Image>uploads/Buntal Weavers/Buntal-Weavers-in-Marinduque.jpg</Image></TouristLocation><TouristLocation><Location>Torrijos</Location><TouristSpots_Events>Pulang Lupa Shrine</TouristSpots_Events><Description>This shrine is built in a mountain peak, where Filipino soldiers won over the Americans during the Philippine-American War on September 13, 1900. It is called &#x201C;Pulang Lupa&#x201D;, which means red soil, because of the bloody fight between the two forces.</Description><Image>uploads/Pulang Lupa Shrine/pulang lupa.png</Image></TouristLocation><TouristLocation><Location>Torrijos</Location><TouristSpots_Events>Costa Celina</TouristSpots_Events><Description>Torrijos is a rustic town that is known to be overflowing with spectacular white-sand beaches that guarantee to amaze even the most travelled adventurers. And, probably the best of these beaches is Costa Celina. Its closeness to nature makes it a prime destination for those who are looking for the ultimate relaxation and wanting to just revel in peace.</Description><Image>uploads/Costa Celina/costo-celina.jpg</Image></TouristLocation></TouristSpots>

@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+/* Design for Main Page */
+body {
+    position: relative;
+    background-image: url("bg\ marinduque.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.banner{
+    position: relative;
+    padding: 20px;
+    background-color: #2980b9;
+    color: white;
+    font-size: 50px;
+    max-width: 100%;
+}
+#result-text{
+    text-align: center;
+    padding: 30px;
+    margin-right: 400px;
+}
+#no-result{
+    margin: 0 130px;
+    font-size: 30px;
+}
+.head-navi{
+    text-align: center;
+}
+.head-navi ul li{
+    list-style: none;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.head-navi a{
+    border-radius: 10px;
+    border: 2px solid green;
+    color: white;
+    background-color: #27ae60;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    margin: 10px;
+}
+.head-navi a:hover{
+    background-color: green;
+}
+
+.search-bar{
+    display: flex;
+    padding: 0 350px;
+    padding-left: 980px;
+    padding-right: 0;
+}
+#search{
+    padding: 0 20px;
+    border-radius: 10px;
+    background-color: white;
+    margin-right: 0;
+    border: none;
+    flex: 1;
+}
+
+#search-button{
+    border-radius: 15px;
+    background-color: aquamarine;
+    border: none;
+    margin-left: 20px;
+    padding: 15px;
+    margin-right: 20px;
+}
+
+.data-searched {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.location {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 300px;
+}
+.location h3{
+    margin-right: 100px;
+}
+.location h2{
+    margin-right: 100px;
+}
+.location img{
+    margin-right: 100px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+}
+.featured-events{
+    padding: 10px 0;
+    background-color: white;
+    position: absolute;
+    display: block;
+    margin: 0 0 0 1100px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+.featured-events img{
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+.featured-events p{
+    font-size: 10px;
+    text-align: justify;
+    margin: 0 50px;
+}
+
+/* Design for Admin Dashboard */
+/* adding data */
+.label-add{
+    text-align: left;
+    margin-left: 130px;
+    max-width: 100%;
+    font-size: 30px;
+}
+.content-container{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+
+}
+input[type="text"]{
+    border-radius: 10px;
+    padding: 20px 90px;
+    background-color: white;
+    display: block;
+    margin: 20px 125px;
+    border: none;
+}
+
+input[type="submit"]{
+    border-radius: 10px;
+    background-color: aquamarine;
+    display: block;
+    margin: 20px 125px;
+    padding: 20px 50px;
+    font-weight: bold;
+    border: none;
+}
+.content-container ul li{
+    list-style: none;
+    margin: 20px 30px;
+    margin-bottom: 50px;
+    
+}
+.content-container a{
+    border-radius: 10px;
+    border: 2px solid green;
+    color: white;
+    background-color: #27ae60;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    margin: 10px;
+}
+.content-container a:hover{
+    background-color: green;
+}
+.description-container{
+    max-width: 100%;
+    width: 700px;
+    height: 250px;
+    border: none;
+}
+
+.data-container h3{
+    background-color: #2980b9;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+}
+.data-container table {
+    width: 100%;
+    background-color: #2980b9;
+    border-collapse: collapse;
+}
+
+.data-container table th {
+    text-align: center;
+    padding: 20px;
+    border: 3px solid black;
+}
+
+.data-container table td {
+    padding: 20px;
+    background-color: wheat;
+    text-align: justify;
+    border: 3px solid black;
+}
+
+#label-upload{
+    display: flex;
+    margin-left: 130px;
+    font-weight: bold;
+}
+
+/* Set a specific width and height for the images */
+table img {
+    width: 200px;
+    height: 150px;
+}
+
+/* Optional: Add styles for table and other elements as needed */
+table {
+width: 100%;
+border-collapse: collapse;
+}
+
+th, td {
+padding: 8px;
+text-align: center;
+border-bottom: 1px solid #ddd;
+}
+
+
+.location img {
+    border-radius: 20px;
+    width: 700px; /* Set the desired width for the images */
+    height: 400px; /* Set the desired height for the images */
+    object-fit: cover; /* Maintain aspect ratio and fill the container */
+}
+
+/* Delete Button Design */
+#delete-button{
+    text-decoration: none;
+    color: white;
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: red;
+}
+#description-size{
+    font-size: 20px;
+    max-width: 80%;
+    margin: 0 50px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
