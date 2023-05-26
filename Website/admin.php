@@ -1,63 +1,59 @@
 <?php
     function addTouristSpot($location, $touristSpot_Events, $description, $image)
     {
-        $xml = simplexml_load_file('touristSpot.xml');
+        $xml = simplexml_load_file('touristSpot.xml'); // Loading XML file containing tourist spots data
 
-        // Create the root element if it doesn't exist
         if (!$xml) {
-            $xml = new SimpleXMLElement('<TouristSpots></TouristSpots>');
+            $xml = new SimpleXMLElement('<TouristSpots></TouristSpots>'); // If the XML file doesn't exist, create a new root element
         }
             
-        $newLocation = $xml->addChild('TouristLocation');
+        $newLocation = $xml->addChild('TouristLocation'); // Adding a new location as a child element
+
+        // Adding child elements to the new location
         $newLocation->addChild('Location', $location);
         $newLocation->addChild('TouristSpots_Events', $touristSpot_Events);
         $newLocation->addChild('Description', $description);
 
         $imageFileName = $image['name']; 
-        $imageFolderPath = 'uploads/' . $touristSpot_Events; // Create a folder using the tourist spot/event name
+        $imageFolderPath = 'uploads/' . $touristSpot_Events;
         if (!is_dir($imageFolderPath)) {
-            mkdir($imageFolderPath, 0777, true); // Create the folder if it doesn't exist
+            mkdir($imageFolderPath, 0777, true); // Creating a new folder for the image if it doesn't exist
         }
-        $imageFilePath = $imageFolderPath . '/' . $imageFileName; // Set the path to store the image
-        move_uploaded_file($image['tmp_name'], $imageFilePath); // Move the uploaded image to the specified path
-        $newLocation->addChild('Image', $imageFilePath); // Store the image path in the XML
-
-        $xml->asXML('touristSpot.xml');
-        header("Location: admin.php");
+        $imageFilePath = $imageFolderPath . '/' . $imageFileName;
+        move_uploaded_file($image['tmp_name'], $imageFilePath); // Moving the uploaded image to the designated folder
+        $newLocation->addChild('Image', $imageFilePath); // Adding the image path as a child element
+        $xml->asXML('touristSpot.xml'); // Saving the updated XML file
+        header("Location: admin.php"); // Redirecting back to the admin page
         exit();
     }
 
     function deleteTouristSpot($location)
     {
-        $xml = simplexml_load_file('touristSpot.xml');
+        $xml = simplexml_load_file('touristSpot.xml'); // Loading XML file containing tourist spots data
         
-        // Find the tourist spot with the given location
-        $deletedLocation = $xml->xpath("//TouristLocation[Location = '{$location}']");
+        $deletedLocation = $xml->xpath("//TouristLocation[Location = '{$location}']"); // Finding the location to be deleted
         
         if (!empty($deletedLocation)) {
             $deletedLocation = $deletedLocation[0];
             
-            // Delete the associated image file
             $imageFilePath = (string) $deletedLocation->Image;
             if (file_exists($imageFilePath)) {
-                unlink($imageFilePath);
+                unlink($imageFilePath); // Deleting the associated image file
             }
             
-            // Delete the associated folder
             $imageFolderPath = dirname($imageFilePath);
             if (is_dir($imageFolderPath)) {
                 $files = glob($imageFolderPath . '/*');
                 foreach ($files as $file) {
                     if (is_file($file)) {
-                        unlink($file);
+                        unlink($file); // Deleting all files within the image folder
                     }
                 }
-                rmdir($imageFolderPath);
+                rmdir($imageFolderPath); // Removing the image folder
             }
             
-            // Remove the tourist spot from the XML
-            unset($deletedLocation[0]);
-            $xml->asXML('touristSpot.xml');
+            unset($deletedLocation[0]); // Removing the location from the XML structure
+            $xml->asXML('touristSpot.xml'); // Saving the updated XML file
         }
     }
 
@@ -67,17 +63,17 @@
         $description = $_POST['location-description'];
         $image = $_FILES['image'];
 
-        addTouristSpot($location, $touristSpot_Events, $description,$image);
+        addTouristSpot($location, $touristSpot_Events, $description,$image); // Calling the function to add a tourist spot
     }
 
     if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['delete'])) {
         $location = $_GET['delete'];
-        deleteTouristSpot($location);
-        header("Location: admin.php");
+        deleteTouristSpot($location); // Calling the function to delete a tourist spot
+        header("Location: admin.php"); // Redirecting back to the admin page
         exit();
     }
 
-    $xml = simplexml_load_file('touristSpot.xml');
+    $xml = simplexml_load_file('touristSpot.xml'); // Loading XML file containing tourist spots data
 ?>
 
 <!DOCTYPE html>
